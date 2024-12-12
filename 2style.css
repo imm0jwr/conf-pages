@@ -77,13 +77,13 @@ footer {
   padding: 0 5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .ui.container {
     width: 95% !important; /* 移动端宽度更小 */
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 2160px) {
   .ui.container {
     width: 90% !important; /* 桌面端更大 */
   }
