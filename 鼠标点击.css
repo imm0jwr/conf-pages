@@ -1,0 +1,27 @@
+/* 基础按钮样式 */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* 初始背景色 */
+  color: white; /* 字体颜色 */
+  border: none; /* 去除默认边框 */
+  cursor: pointer; /* 鼠标悬停时显示手型 */
+  border-radius: 5px; /* 圆角效果 */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* 背景色和缩放的平滑过渡 */
+}
+
+/* 鼠标悬停时的按钮效果 */
+button:hover {
+  background-color: #45a049; /* 背景色稍微变深 */
+}
+
+/* 鼠标点击时的效果 */
+button.clicked {
+  background-color: #45a049; /* 点击后的背景色 */
+  transform: scale(0.95); /* 点击时按钮缩小 */
+}
+
+/* 鼠标按下时，按钮也可以稍微压缩，增强点击效果 */
+button:active {
+  transform: scale(0.9); /* 点击时按钮稍微缩小 */
+}
