@@ -11,6 +11,7 @@ body {
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -o-flex-direction: column;
+  background-color: #222;  /* 添加暗黑色背景 */
 }
 
 header {
